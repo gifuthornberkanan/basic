@@ -52,6 +52,7 @@ $global:color = @{
     SeaFoamGreen    = "2;118;215;196m"
     Khaki           = "2;240;230;140m"
     Green           = "2;0;255;0m"
+    Algae           = "2;102;153;0m"
 
     # Blues
     Blue            = "2;0;0;255m"
@@ -103,3 +104,33 @@ Set-PSReadLineOption -Colors @{
 	Type = "$FG$($color.Turquoise)"
 	Variable = "$FG$($color.LimeGreen)"
 }
+
+# Function for displaying colors
+
+function Get-ColorSwatches () {
+    param(
+        [int]$Columns=4,
+        [int]$Padding=21,
+        [decimal]$Size=3,
+        [switch]$colors,
+        [switch]$xterms=$false
+    )
+    $Spaces = "".PadRight($($Size * 2)," ")
+    if ($xterms) {$array=$xterm.Keys; $colors=$false}
+    if ($colors) {$array=$color.Keys; $Columns=5; $Padding=13}
+    $array | ForEach-Object {
+        $counter += 1
+        if ($xterms) {$colorBit = "$($xterm.$_.tbit)"}
+        if ($colors) {$colorBit = "$($color.$_)"}
+        $line1 += "$BG$colorBit$Spaces$Clir " + "$_".PadRight($Padding," ")
+        $line2 += "$BG$colorBit$Spaces$Clir " + "  ".PadRight($Padding," ")
+        if ((($counter % $Columns) -eq 0) -or ($counter -eq $array.Count)) {
+            foreach ($i in 1..$Size) {
+                if ($i -eq ([math]::Round(($Size + 0.5) / 2))) {Write-Host $line1} else {Write-Host $line2}
+            }
+        }
+        if (($counter % $Columns) -eq 0) {$line1 = ""; $line2 = ""}
+        }
+        $line1 = ""; $line2 = ""; $counter = 0
+}
+Set-Alias -Name gcsw -Value Get-ColorSwatches
