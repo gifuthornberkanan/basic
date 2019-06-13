@@ -34,11 +34,15 @@ $global:color = @{
     Salmon          = "2;250;128;114m"
     Pink            = "2;255;182;193m"
     Magenta         = "2;255;20;147m"
+    Maroon			= "2;128;0;0m"
 
     # Oranges
     OrangeJulius    = "2;255;167;36m"       #Taken from Badwolf color theme in Vim
     Butterscotch    = "2;244;207;134m"      #Taken from Badwolf color theme in Vim
     Poppy           = "2;255;175;0m"        #Taken from Badwolf color theme in Vim
+    Apricot			= "2;255;135;0m"
+    Marigold		= "2;255;175;0m"
+    Orange			= "2;255;95;0m"
 
     # Yellows
     Brown           = "2;120;66;18m"
@@ -46,13 +50,15 @@ $global:color = @{
     Yellow          = "2;255;255;0m"
     Caramel         = "2;186;74;0m"
     Tan             = "2;210;180;140m"
+    Cream			= "2;255;215;95m"
 
     # Greens
     LimeGreen       = "2;174;238;0m"        #Taken from Badwolf color theme in Vim
     SeaFoamGreen    = "2;118;215;196m"
-    Khaki           = "2;240;230;140m"
+    Khaki			= "2;175;175;95m"
     Green           = "2;0;255;0m"
     Algae           = "2;102;153;0m"
+    Pistachio		= "2;175;255;175m"
 
     # Blues
     Blue            = "2;0;0;255m"
@@ -63,9 +69,12 @@ $global:color = @{
     PSBlue          = "2;0;26;56m"          #Default PowerShell console window background color
 
     # Purples
-    Lavender        = "2;230;230;250m"
+	Lavendar		= "2;175;135;255m"
     Orchid          = "2;218;112;214m"
     Purple          = "2;128;0;128m"
+    Eggplant        = "2;95;0;95m"
+    Violet			= "2;175;95;255m"
+    Periwinkle		= "2;215;175;255m"
 
     # Monochromes
     Silver          = "2;192;192;192m"
@@ -109,15 +118,15 @@ Set-PSReadLineOption -Colors @{
 
 function Get-ColorSwatches () {
     param(
-        [int]$Columns=4,
-        [int]$Padding=21,
+        [int]$Columns,
+        [int]$Padding,
         [decimal]$Size=3,
         [switch]$colors,
-        [switch]$xterms=$false
+        [switch]$xterms
     )
     $Spaces = "".PadRight($($Size * 2)," ")
-    if ($xterms) {$array=$xterm.Keys; $colors=$false}
-    if ($colors) {$array=$color.Keys; $Columns=5; $Padding=13}
+    if ($xterms) {$array=$xterm.Keys; if (!$Columns) {$Columns = 4}; if (!$Padding) {$Padding = 21}}
+    if ($colors) {$array=$color.Keys; if (!$Columns) {$Columns = 5}; if (!$Padding) {$Padding = 13}}
     $array | ForEach-Object {
         $counter += 1
         if ($xterms) {$colorBit = "$($xterm.$_.tbit)"}
@@ -134,3 +143,21 @@ function Get-ColorSwatches () {
         $line1 = ""; $line2 = ""; $counter = 0
 }
 Set-Alias -Name gcsw -Value Get-ColorSwatches
+
+function Set-ColorThemeValues () {
+    param(
+        [string]$NewColor,
+        [int]$Text,
+        [int]$Back
+    )
+
+    if ($Text) { $ThemeNum = $Text; $Theme = "b"; $Number = $Text + 19 }
+    if ($Back) { $ThemeNum = $Back; $Theme = "a"; $Number = $Back + 9  }
+
+    $file = Get-Content -Path C:\Users\thorn\Documents\WindowsPowerShell\Scripts\color_themes.ps1
+
+    $file[$Number] = "`$theme$ThemeNum$Theme = `$color.$NewColor"
+
+    $file | Set-Content -Path C:\Users\thorn\Documents\WindowsPowerShell\Scripts\color_themes.ps1
+
+}
