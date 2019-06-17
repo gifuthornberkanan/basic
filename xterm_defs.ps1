@@ -23,6 +23,14 @@ $global:xterm = @{
             s = 0;
             l = 0
         }
+        notes = "same as colorID 16, Grey0"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Maroon = @{
         name = "Maroon"
@@ -48,6 +56,14 @@ $global:xterm = @{
             s = 100;
             l = 25
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Green = @{
         name = "Green"
@@ -73,6 +89,14 @@ $global:xterm = @{
             s = 100;
             l = 25
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Olive = @{
         name = "Olive"
@@ -98,6 +122,14 @@ $global:xterm = @{
             s = 100;
             l = 25
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Navy = @{
         name = "Navy"
@@ -123,6 +155,14 @@ $global:xterm = @{
             s = 100;
             l = 25
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Purple = @{
         name = "Purple"
@@ -148,6 +188,14 @@ $global:xterm = @{
             s = 100;
             l = 25
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Teal = @{
         name = "Teal"
@@ -173,6 +221,14 @@ $global:xterm = @{
             s = 100;
             l = 25
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Silver = @{
         name = "Silver"
@@ -198,6 +254,14 @@ $global:xterm = @{
             s = 0;
             l = 75
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey = @{
         name = "Grey"
@@ -223,6 +287,14 @@ $global:xterm = @{
             s = 0;
             l = 50
         }
+        notes = "same as colorID 244, Grey50"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Red = @{
         name = "Red"
@@ -248,6 +320,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = "same as colorID 196, RedPure"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Lime = @{
         name = "Lime"
@@ -273,6 +353,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = "same as colorID 46, GreenPure"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Yellow = @{
         name = "Yellow"
@@ -298,6 +386,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = "same as colorID 226, YellwoPure"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Blue = @{
         name = "Blue"
@@ -323,6 +419,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = "same as colorID 21, BluePure"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Fuchsia = @{
         name = "Fuchsia"
@@ -348,6 +452,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = "same as colorID 201, MagentaPure"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Aqua = @{
         name = "Aqua"
@@ -373,6 +485,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = "same as colorID 51, Cyan"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     White = @{
         name = "White"
@@ -398,6 +518,14 @@ $global:xterm = @{
             s = 0;
             l = 100
         }
+        notes = "same as old `$color.Wite. same as colorID 231, Grey100"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey0 = @{
         name = "Grey0"
@@ -423,6 +551,14 @@ $global:xterm = @{
             s = 0;
             l = 0
         }
+        notes = "same as colorID 0, Black"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     NavyBlue = @{
         name = "NavyBlue"
@@ -448,6 +584,14 @@ $global:xterm = @{
             s = 100;
             l = 18
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     DarkBlue = @{
         name = "DarkBlue"
@@ -473,6 +617,14 @@ $global:xterm = @{
             s = 100;
             l = 26
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Indigo = @{
         name = "Blue3"
@@ -498,6 +650,14 @@ $global:xterm = @{
             s = 100;
             l = 34
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     BlueDeep = @{
         name = "Blue4"
@@ -523,6 +683,14 @@ $global:xterm = @{
             s = 100;
             l = 42
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     BluePure = @{
         name = "Blue2"
@@ -548,6 +716,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = "same as colorID 12, Blue"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     ForestGreen = @{
         name = "DarkGreen"
@@ -573,6 +749,14 @@ $global:xterm = @{
             s = 100;
             l = 18
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     TurquoiseDark = @{
         name = "DeepSkyBlue4"
@@ -598,6 +782,14 @@ $global:xterm = @{
             s = 100;
             l = 18
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     CeruleanDark = @{
         name = "DeepSkyBlue4"
@@ -623,6 +815,14 @@ $global:xterm = @{
             s = 100;
             l = 26
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SkyBlueDark = @{
         name = "DeepSkyBlue4"
@@ -648,6 +848,14 @@ $global:xterm = @{
             s = 100;
             l = 34
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     DodgerBlueDeep = @{
         name = "DodgerBlue3"
@@ -673,6 +881,14 @@ $global:xterm = @{
             s = 100;
             l = 42
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     DodgerBlue = @{
         name = "DodgerBlue2"
@@ -698,6 +914,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     ForestGreenLight = @{
         name = "Green4"
@@ -723,6 +947,14 @@ $global:xterm = @{
             s = 100;
             l = 26
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SeaGreenDark = @{
         name = "SpringGreen4"
@@ -748,6 +980,14 @@ $global:xterm = @{
             s = 100;
             l = 26
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     TurquoiseDeep = @{
         name = "Turquoise4"
@@ -773,6 +1013,14 @@ $global:xterm = @{
             s = 100;
             l = 26
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Cerulean = @{
         name = "DeepSkyBlue3"
@@ -798,6 +1046,14 @@ $global:xterm = @{
             s = 100;
             l = 34
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SkyBlueDeep = @{
         name = "DeepSkyBlue3"
@@ -823,6 +1079,14 @@ $global:xterm = @{
             s = 100;
             l = 42
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     DodgerBlueLight = @{
         name = "DodgerBlue1"
@@ -848,6 +1112,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = "same as old `$color.Bloo"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     GreenDark = @{
         name = "Green3"
@@ -873,6 +1145,14 @@ $global:xterm = @{
             s = 100;
             l = 34
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     EmeraldDark = @{
         name = "SpringGreen3"
@@ -898,6 +1178,14 @@ $global:xterm = @{
             s = 100;
             l = 34
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     AquamarineDark = @{
         name = "DarkCyan"
@@ -923,6 +1211,14 @@ $global:xterm = @{
             s = 100;
             l = 34
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     TurquoiseSmoky = @{
         name = "LightSeaGreen"
@@ -948,6 +1244,14 @@ $global:xterm = @{
             s = 100;
             l = 34
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     CeruleanDeep = @{
         name = "DeepSkyBlue2"
@@ -973,6 +1277,14 @@ $global:xterm = @{
             s = 100;
             l = 42
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SkyBlue = @{
         name = "DeepSkyBlue1"
@@ -998,6 +1310,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     GreenDeep = @{
         name = "Green3"
@@ -1023,6 +1343,14 @@ $global:xterm = @{
             s = 100;
             l = 42
         }
+        notes = "same as old `$color.Grin"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SpringGreenDeep = @{
         name = "SpringGreen3"
@@ -1048,6 +1376,14 @@ $global:xterm = @{
             s = 100;
             l = 42
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SeaGreenDeep = @{
         name = "SpringGreen2"
@@ -1073,6 +1409,14 @@ $global:xterm = @{
             s = 100;
             l = 42
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     AquamarineDeep = @{
         name = "Cyan3"
@@ -1098,6 +1442,14 @@ $global:xterm = @{
             s = 100;
             l = 42
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Turquoise = @{
         name = "DarkTurquoise"
@@ -1123,6 +1475,14 @@ $global:xterm = @{
             s = 100;
             l = 42
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     CeruleanLight = @{
         name = "Turquoise2"
@@ -1148,6 +1508,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     GreenPure = @{
         name = "Green1"
@@ -1173,6 +1541,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = "same as colorID 10, Lime"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SpringGreen = @{
         name = "SpringGreen2"
@@ -1198,6 +1574,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     EmeraldDeep = @{
         name = "SpringGreen1"
@@ -1223,6 +1607,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SeaGreen = @{
         name = "MediumSpringGreen"
@@ -1248,6 +1640,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Aquamarine = @{
         name = "Cyan2"
@@ -1273,6 +1673,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Cyan = @{
         name = "Cyan"
@@ -1298,6 +1706,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = "same as colorID 14, Aqua"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     BrickRedDark = @{
         name = "DarkRed"
@@ -1323,6 +1739,14 @@ $global:xterm = @{
             s = 100;
             l = 18
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Eggplant = @{
         name = "DeepPink4"
@@ -1348,6 +1772,14 @@ $global:xterm = @{
             s = 100;
             l = 18
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     PlumDark = @{
         name = "Purple4"
@@ -1373,6 +1805,14 @@ $global:xterm = @{
             s = 100;
             l = 26
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     PurpleDark = @{
         name = "Purple4"
@@ -1398,6 +1838,14 @@ $global:xterm = @{
             s = 100;
             l = 34
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     VioletDark = @{
         name = "Purple3"
@@ -1423,6 +1871,14 @@ $global:xterm = @{
             s = 100;
             l = 42
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     VioletDeep = @{
         name = "BlueViolet"
@@ -1448,6 +1904,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     OliveDark = @{
         name = "Orange4"
@@ -1473,6 +1937,14 @@ $global:xterm = @{
             s = 100;
             l = 18
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey37 = @{
         name = "Grey37"
@@ -1498,6 +1970,14 @@ $global:xterm = @{
             s = 0;
             l = 37
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SlateGreyDark = @{
         name = "MediumPurple4"
@@ -1523,6 +2003,14 @@ $global:xterm = @{
             s = 17;
             l = 45
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SlateGreyDeep = @{
         name = "SlateBlue3"
@@ -1548,6 +2036,14 @@ $global:xterm = @{
             s = 33;
             l = 52
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SlateGrey = @{
         name = "SlateBlue3"
@@ -1573,6 +2069,14 @@ $global:xterm = @{
             s = 60;
             l = 60
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     RoyalBlue = @{
         name = "RoyalBlue1"
@@ -1598,6 +2102,14 @@ $global:xterm = @{
             s = 100;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     GrassDark = @{
         name = "Chartreuse4"
@@ -1623,6 +2135,14 @@ $global:xterm = @{
             s = 100;
             l = 26
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     JadeDark = @{
         name = "DarkSeaGreen4"
@@ -1648,6 +2168,14 @@ $global:xterm = @{
             s = 17;
             l = 45
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     CadetBlueDark = @{
         name = "PaleTurquoise4"
@@ -1673,6 +2201,14 @@ $global:xterm = @{
             s = 17;
             l = 45
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SteelBlue = @{
         name = "SteelBlue"
@@ -1698,6 +2234,14 @@ $global:xterm = @{
             s = 33;
             l = 52
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     CornflowerBlueDeep = @{
         name = "SteelBlue3"
@@ -1723,6 +2267,14 @@ $global:xterm = @{
             s = 60;
             l = 60
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     CornflowerBlue = @{
         name = "CornflowerBlue"
@@ -1748,6 +2300,14 @@ $global:xterm = @{
             s = 100;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     ChartreuseDark = @{
         name = "Chartreuse3"
@@ -1773,6 +2333,14 @@ $global:xterm = @{
             s = 100;
             l = 34
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Jade = @{
         name = "DarkSeaGreen4"
@@ -1798,6 +2366,14 @@ $global:xterm = @{
             s = 33;
             l = 52
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     CadetBlueDeep = @{
         name = "CadetBlue"
@@ -1823,6 +2399,14 @@ $global:xterm = @{
             s = 33;
             l = 52
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     CadetBlue = @{
         name = "CadetBlue2"
@@ -1848,6 +2432,14 @@ $global:xterm = @{
             s = 33;
             l = 52
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SkyBlueSmoky = @{
         name = "SkyBlue3"
@@ -1873,6 +2465,14 @@ $global:xterm = @{
             s = 60;
             l = 60
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SteelBlueLight = @{
         name = "SteelBlue1"
@@ -1898,6 +2498,14 @@ $global:xterm = @{
             s = 100;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     NeonGreenDeep = @{
         name = "Chartreuse5"
@@ -1923,6 +2531,14 @@ $global:xterm = @{
             s = 100;
             l = 42
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     JadeLight = @{
         name = "PaleGreen3"
@@ -1948,6 +2564,14 @@ $global:xterm = @{
             s = 60;
             l = 60
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SpringGreenDark = @{
         name = "SeaGreen3"
@@ -1973,6 +2597,14 @@ $global:xterm = @{
             s = 60;
             l = 60
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SeaGreenSmoky = @{
         name = "Aquamarine3"
@@ -1998,6 +2630,14 @@ $global:xterm = @{
             s = 60;
             l = 60
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     TurquoiseLight = @{
         name = "MediumTurquoise"
@@ -2023,6 +2663,14 @@ $global:xterm = @{
             s = 60;
             l = 60
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     CeruleanFaded = @{
         name = "SteelBlue1"
@@ -2048,6 +2696,14 @@ $global:xterm = @{
             s = 100;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     NeonGreen = @{
         name = "Chartreuse2"
@@ -2073,6 +2729,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     GreenLight = @{
         name = "SeaGreen2"
@@ -2098,6 +2762,14 @@ $global:xterm = @{
             s = 100;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SpringGreenLight = @{
         name = "SeaGreen1"
@@ -2123,6 +2795,14 @@ $global:xterm = @{
             s = 100;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Emerald = @{
         name = "SeaGreen1"
@@ -2148,6 +2828,14 @@ $global:xterm = @{
             s = 100;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     AquamarineLight = @{
         name = "Aquamarine"
@@ -2173,6 +2861,14 @@ $global:xterm = @{
             s = 100;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     CyanLight = @{
         name = "DarkSlateGray2"
@@ -2198,6 +2894,14 @@ $global:xterm = @{
             s = 100;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     BrickRed = @{
         name = "DarkRed"
@@ -2223,6 +2927,14 @@ $global:xterm = @{
             s = 100;
             l = 26
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     FuchsiaDark = @{
         name = "DeepPink4"
@@ -2248,6 +2960,14 @@ $global:xterm = @{
             s = 100;
             l = 26
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Velvet = @{
         name = "DarkMagenta"
@@ -2273,6 +2993,14 @@ $global:xterm = @{
             s = 100;
             l = 26
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     PlumDeep = @{
         name = "DarkMagenta2"
@@ -2298,6 +3026,14 @@ $global:xterm = @{
             s = 100;
             l = 34
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     PurpleDeep = @{
         name = "DarkViolet"
@@ -2323,6 +3059,14 @@ $global:xterm = @{
             s = 100;
             l = 42
         }
+        notes = "same as old `$color.Vlet and `$color.Tym1 before that"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     PurplePure = @{
         name = "Purple"
@@ -2348,6 +3092,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Bronze = @{
         name = "Orange4"
@@ -2373,6 +3125,14 @@ $global:xterm = @{
             s = 100;
             l = 26
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     CoralSmoky = @{
         name = "LightPink4"
@@ -2398,6 +3158,14 @@ $global:xterm = @{
             s = 17;
             l = 45
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     OrchidDark = @{
         name = "Plum4"
@@ -2423,6 +3191,14 @@ $global:xterm = @{
             s = 17;
             l = 45
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     VioletSmoky = @{
         name = "MediumPurple3"
@@ -2448,6 +3224,14 @@ $global:xterm = @{
             s = 33;
             l = 52
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     LavendarDark = @{
         name = "MediumPurple3"
@@ -2473,6 +3257,14 @@ $global:xterm = @{
             s = 60;
             l = 60
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SlateBlueDeep = @{
         name = "SlateBlue1"
@@ -2498,6 +3290,14 @@ $global:xterm = @{
             s = 100;
             l = 68
         }
+        notes = "same as old `$color.Slet"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     OlivePure = @{
         name = "Yellow4"
@@ -2523,6 +3323,14 @@ $global:xterm = @{
             s = 100;
             l = 26
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     YellowStoneDark = @{
         name = "Wheat4"
@@ -2548,6 +3356,14 @@ $global:xterm = @{
             s = 17;
             l = 45
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey53 = @{
         name = "Grey53"
@@ -2573,6 +3389,14 @@ $global:xterm = @{
             s = 0;
             l = 52
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SlateGreySmoky = @{
         name = "LightSlateGrey"
@@ -2598,6 +3422,14 @@ $global:xterm = @{
             s = 20;
             l = 60
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SlateGreyLight = @{
         name = "MediumPurple"
@@ -2623,6 +3455,14 @@ $global:xterm = @{
             s = 50;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SlateBlue = @{
         name = "LightSlateBlue"
@@ -2648,6 +3488,14 @@ $global:xterm = @{
             s = 100;
             l = 76
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grass = @{
         name = "Yellow4"
@@ -2673,6 +3521,14 @@ $global:xterm = @{
             s = 100;
             l = 34
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     ChartreuseSmokyDark = @{
         name = "DarkOliveGreen3"
@@ -2698,6 +3554,14 @@ $global:xterm = @{
             s = 33;
             l = 52
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     JadeDeep = @{
         name = "DarkSeaGreen"
@@ -2723,6 +3587,14 @@ $global:xterm = @{
             s = 20;
             l = 60
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     CadetBlueSmoky = @{
         name = "LightSkyBlue3"
@@ -2748,6 +3620,14 @@ $global:xterm = @{
             s = 20;
             l = 60
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SteelBlueSmoky = @{
         name = "LightSkyBlue3"
@@ -2773,6 +3653,14 @@ $global:xterm = @{
             s = 50;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     CornflowerBlueLight = @{
         name = "SkyBlue2"
@@ -2798,6 +3686,14 @@ $global:xterm = @{
             s = 100;
             l = 76
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     ChartreuseDeep = @{
         name = "Chartreuse6"
@@ -2823,6 +3719,14 @@ $global:xterm = @{
             s = 100;
             l = 42
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     NeonGreenDark = @{
         name = "DarkOliveGreen4"
@@ -2848,6 +3752,14 @@ $global:xterm = @{
             s = 60;
             l = 60
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     JadeLightSmoky = @{
         name = "PaleGreen3"
@@ -2873,6 +3785,14 @@ $global:xterm = @{
             s = 50;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     EmeraldSmoky = @{
         name = "DarkSeaGreen3"
@@ -2898,6 +3818,14 @@ $global:xterm = @{
             s = 50;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     CadetBlueLight = @{
         name = "DarkSlateGray3"
@@ -2923,6 +3851,14 @@ $global:xterm = @{
             s = 50;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SkyBlueLight = @{
         name = "SkyBlue1"
@@ -2948,6 +3884,14 @@ $global:xterm = @{
             s = 100;
             l = 76
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Chartreuse = @{
         name = "Chartreuse"
@@ -2973,6 +3917,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     NeonGreenLight = @{
         name = "LightGreen"
@@ -2998,6 +3950,14 @@ $global:xterm = @{
             s = 100;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     GreenFaded = @{
         name = "LightGreen"
@@ -3023,6 +3983,14 @@ $global:xterm = @{
             s = 100;
             l = 76
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SpringGreenFaded = @{
         name = "PaleGreen1"
@@ -3048,6 +4016,14 @@ $global:xterm = @{
             s = 100;
             l = 76
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SeaGreenLight = @{
         name = "Aquamarine2"
@@ -3073,6 +4049,14 @@ $global:xterm = @{
             s = 100;
             l = 76
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     CyanFaded = @{
         name = "DarkSlateGray1"
@@ -3098,6 +4082,14 @@ $global:xterm = @{
             s = 100;
             l = 76
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     RedDark = @{
         name = "Red3"
@@ -3123,6 +4115,14 @@ $global:xterm = @{
             s = 100;
             l = 34
         }
+        notes = "same as old `$color.Redd"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     PinkDark = @{
         name = "DeepPink4"
@@ -3148,6 +4148,14 @@ $global:xterm = @{
             s = 100;
             l = 34
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     FuchsiaDeep = @{
         name = "MediumVioletRed"
@@ -3173,6 +4181,14 @@ $global:xterm = @{
             s = 100;
             l = 34
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     MagentaDark = @{
         name = "Magenta3"
@@ -3198,6 +4214,14 @@ $global:xterm = @{
             s = 100;
             l = 34
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Plum = @{
         name = "DarkViolet"
@@ -3223,6 +4247,14 @@ $global:xterm = @{
             s = 100;
             l = 42
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     PurpleLight = @{
         name = "Purple"
@@ -3248,6 +4280,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = "same as old `$color.Prpl and `$color.Tym3 before that"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     ApricotDeep = @{
         name = "DarkOrange2"
@@ -3273,6 +4313,14 @@ $global:xterm = @{
             s = 100;
             l = 34
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     CoralDark = @{
         name = "IndianRed"
@@ -3298,6 +4346,14 @@ $global:xterm = @{
             s = 33;
             l = 52
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     HotPinkDark = @{
         name = "HotPink3"
@@ -3323,6 +4379,14 @@ $global:xterm = @{
             s = 33;
             l = 52
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     OrchidDeep = @{
         name = "MediumOrchid3"
@@ -3348,6 +4412,14 @@ $global:xterm = @{
             s = 33;
             l = 52
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     PurpleSmoky = @{
         name = "MediumOrchid"
@@ -3373,6 +4445,14 @@ $global:xterm = @{
             s = 60;
             l = 60
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Violet = @{
         name = "MediumPurple2"
@@ -3398,6 +4478,14 @@ $global:xterm = @{
             s = 100;
             l = 68
         }
+        notes = "same as old `$color.Mppl and `$color.Prpl before that"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Mustard = @{
         name = "DarkGoldenrod"
@@ -3423,6 +4511,14 @@ $global:xterm = @{
             s = 100;
             l = 34
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SandySmoky = @{
         name = "LightSalmon3"
@@ -3448,6 +4544,14 @@ $global:xterm = @{
             s = 33;
             l = 52
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     RoseSmoky = @{
         name = "RosyBrown"
@@ -3473,6 +4577,14 @@ $global:xterm = @{
             s = 20;
             l = 60
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     OrchidSmoky = @{
         name = "Grey63"
@@ -3498,6 +4610,14 @@ $global:xterm = @{
             s = 20;
             l = 60
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     VioletLight = @{
         name = "MediumPurple2"
@@ -3523,6 +4643,14 @@ $global:xterm = @{
             s = 50;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Lavendar = @{
         name = "MediumPurple1"
@@ -3548,6 +4676,14 @@ $global:xterm = @{
             s = 100;
             l = 76
         }
+        notes = "same as old `$color.Mprp and `$color.Tym2 before that"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     OliveLight = @{
         name = "Gold3"
@@ -3573,6 +4709,14 @@ $global:xterm = @{
             s = 100;
             l = 34
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Khaki = @{
         name = "DarkKhaki"
@@ -3598,6 +4742,14 @@ $global:xterm = @{
             s = 33;
             l = 52
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     YellowStone = @{
         name = "NavajoWhite3"
@@ -3623,6 +4775,14 @@ $global:xterm = @{
             s = 20;
             l = 60
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey69 = @{
         name = "Grey69"
@@ -3648,6 +4808,14 @@ $global:xterm = @{
             s = 0;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SlateGreyFaded = @{
         name = "LightSteelBlue3"
@@ -3673,6 +4841,14 @@ $global:xterm = @{
             s = 33;
             l = 76
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SlateBlueLight = @{
         name = "LightSteelBlue"
@@ -3698,6 +4874,14 @@ $global:xterm = @{
             s = 100;
             l = 84
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     GrassLight = @{
         name = "Yellow3"
@@ -3723,6 +4907,14 @@ $global:xterm = @{
             s = 100;
             l = 42
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     OliveSmoky = @{
         name = "DarkOliveGreen5"
@@ -3748,6 +4940,14 @@ $global:xterm = @{
             s = 60;
             l = 60
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     ChartreuseSmoky = @{
         name = "DarkSeaGreen3"
@@ -3773,6 +4973,14 @@ $global:xterm = @{
             s = 50;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     JadeSmoky = @{
         name = "DarkSeaGreen2"
@@ -3798,6 +5006,14 @@ $global:xterm = @{
             s = 33;
             l = 76
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     CadetBlueFaded = @{
         name = "LightCyan3"
@@ -3823,6 +5039,14 @@ $global:xterm = @{
             s = 33;
             l = 76
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SteelBlueFaded = @{
         name = "LightSkyBlue1"
@@ -3848,6 +5072,14 @@ $global:xterm = @{
             s = 100;
             l = 84
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     LimePure = @{
         name = "GreenYellow"
@@ -3873,6 +5105,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     ChartreuseLight = @{
         name = "DarkOliveGreen2"
@@ -3898,6 +5138,14 @@ $global:xterm = @{
             s = 100;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     NeonGreenFaded = @{
         name = "PaleGreen1"
@@ -3923,6 +5171,14 @@ $global:xterm = @{
             s = 100;
             l = 76
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Pistachio = @{
         name = "DarkSeaGreen2"
@@ -3948,6 +5204,14 @@ $global:xterm = @{
             s = 100;
             l = 84
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     EmeraldLight = @{
         name = "DarkSeaGreen1"
@@ -3973,6 +5237,14 @@ $global:xterm = @{
             s = 100;
             l = 84
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     CyanBright = @{
         name = "PaleTurquoise1"
@@ -3998,6 +5270,14 @@ $global:xterm = @{
             s = 100;
             l = 84
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     RedDeep = @{
         name = "Red3"
@@ -4023,6 +5303,14 @@ $global:xterm = @{
             s = 100;
             l = 42
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     MulberryDeep = @{
         name = "DeepPink3"
@@ -4048,6 +5336,14 @@ $global:xterm = @{
             s = 100;
             l = 42
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     PinkDeep = @{
         name = "DeepPink3"
@@ -4073,6 +5369,14 @@ $global:xterm = @{
             s = 100;
             l = 42
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     FuchsiaSmoky = @{
         name = "Magenta3"
@@ -4098,6 +5402,14 @@ $global:xterm = @{
             s = 100;
             l = 42
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     MagentaDeep = @{
         name = "Magenta3"
@@ -4123,6 +5435,14 @@ $global:xterm = @{
             s = 100;
             l = 42
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     PlumLight = @{
         name = "Magenta2"
@@ -4148,6 +5468,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     OrangeDark = @{
         name = "DarkOrange3"
@@ -4173,6 +5501,14 @@ $global:xterm = @{
             s = 100;
             l = 42
         }
+        notes = "same as old `$color.Ornj"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     CoralDeep = @{
         name = "IndianRed"
@@ -4198,6 +5534,14 @@ $global:xterm = @{
             s = 60;
             l = 60
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     MulberrySmoky = @{
         name = "HotPink3"
@@ -4223,6 +5567,14 @@ $global:xterm = @{
             s = 60;
             l = 60
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     PinkSmoky = @{
         name = "HotPink2"
@@ -4248,6 +5600,14 @@ $global:xterm = @{
             s = 60;
             l = 60
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Orchid = @{
         name = "Orchid"
@@ -4273,6 +5633,14 @@ $global:xterm = @{
             s = 60;
             l = 60
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     PlumFaded = @{
         name = "MediumOrchid1"
@@ -4298,6 +5666,14 @@ $global:xterm = @{
             s = 100;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     MarigoldDeep = @{
         name = "Orange3"
@@ -4323,6 +5699,14 @@ $global:xterm = @{
             s = 100;
             l = 42
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SalmonDeep = @{
         name = "LightSalmon3"
@@ -4348,6 +5732,14 @@ $global:xterm = @{
             s = 60;
             l = 60
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     RoseDark = @{
         name = "LightPink3"
@@ -4373,6 +5765,14 @@ $global:xterm = @{
             s = 50;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     HotPinkSmoky = @{
         name = "Pink3"
@@ -4398,6 +5798,14 @@ $global:xterm = @{
             s = 50;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     OrchidLight = @{
         name = "Plum3"
@@ -4423,6 +5831,14 @@ $global:xterm = @{
             s = 50;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     PurpleFaded = @{
         name = "Violet"
@@ -4448,6 +5864,14 @@ $global:xterm = @{
             s = 100;
             l = 76
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     GoldDeep = @{
         name = "Gold3"
@@ -4473,6 +5897,14 @@ $global:xterm = @{
             s = 100;
             l = 42
         }
+        notes = "same as old `$color.Yelo"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     MarigoldSmoky = @{
         name = "LightGoldenrod3"
@@ -4498,6 +5930,14 @@ $global:xterm = @{
             s = 60;
             l = 60
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Tan = @{
         name = "Tan"
@@ -4523,6 +5963,14 @@ $global:xterm = @{
             s = 50;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     RoseFaded = @{
         name = "MistyRose3"
@@ -4548,6 +5996,14 @@ $global:xterm = @{
             s = 33;
             l = 76
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     OrchidFaded = @{
         name = "Thistle3"
@@ -4573,6 +6029,14 @@ $global:xterm = @{
             s = 33;
             l = 76
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Periwinkle = @{
         name = "Plum2"
@@ -4598,6 +6062,14 @@ $global:xterm = @{
             s = 100;
             l = 84
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     YellowDeep = @{
         name = "Yellow3"
@@ -4623,6 +6095,14 @@ $global:xterm = @{
             s = 100;
             l = 42
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     KhakiLight = @{
         name = "Khaki3"
@@ -4648,6 +6128,14 @@ $global:xterm = @{
             s = 60;
             l = 60
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     GoldenrodDeep = @{
         name = "LightGoldenrod2"
@@ -4673,6 +6161,14 @@ $global:xterm = @{
             s = 50;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     YellowStoneLight = @{
         name = "LightYellow3"
@@ -4698,6 +6194,14 @@ $global:xterm = @{
             s = 33;
             l = 76
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey84 = @{
         name = "Grey84"
@@ -4723,6 +6227,14 @@ $global:xterm = @{
             s = 0;
             l = 84
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SlateBlueFaded = @{
         name = "LightSteelBlue1"
@@ -4748,6 +6260,14 @@ $global:xterm = @{
             s = 100;
             l = 92
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     LemonLime = @{
         name = "Yellow2"
@@ -4773,6 +6293,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     KeyLime = @{
         name = "DarkOliveGreen"
@@ -4798,6 +6326,14 @@ $global:xterm = @{
             s = 100;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     OliveFaded = @{
         name = "DarkOliveGreen1"
@@ -4823,6 +6359,14 @@ $global:xterm = @{
             s = 100;
             l = 76
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     ChartreuseFaded = @{
         name = "DarkSeaGreen1"
@@ -4848,6 +6392,14 @@ $global:xterm = @{
             s = 100;
             l = 84
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Honeydew = @{
         name = "Honeydew2"
@@ -4873,6 +6425,14 @@ $global:xterm = @{
             s = 100;
             l = 92
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     CyanPale = @{
         name = "LightCyan1"
@@ -4898,6 +6458,14 @@ $global:xterm = @{
             s = 100;
             l = 92
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     RedPure = @{
         name = "Red1"
@@ -4923,6 +6491,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = "same as colorID 9, Red"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Mulberry = @{
         name = "DeepPink2"
@@ -4948,6 +6524,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     HotPink = @{
         name = "DeepPink1"
@@ -4973,6 +6557,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Pink = @{
         name = "DeepPink1"
@@ -4998,6 +6590,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     FuchsiaPure = @{
         name = "Magenta2"
@@ -5023,6 +6623,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     MagentaPure = @{
         name = "Magenta1"
@@ -5048,6 +6656,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = "same as colorID 13, Fuschia"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Orange = @{
         name = "OrangeRed1"
@@ -5073,6 +6689,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Coral = @{
         name = "IndianRed1"
@@ -5098,6 +6722,14 @@ $global:xterm = @{
             s = 100;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     MulberryLight = @{
         name = "IndianRed1"
@@ -5123,6 +6755,14 @@ $global:xterm = @{
             s = 100;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     HotPinkLight = @{
         name = "HotPink"
@@ -5148,6 +6788,14 @@ $global:xterm = @{
             s = 100;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     FuchsiaLight = @{
         name = "HotPink"
@@ -5173,6 +6821,14 @@ $global:xterm = @{
             s = 100;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     MagentaLight = @{
         name = "MediumOrchid1"
@@ -5198,6 +6854,14 @@ $global:xterm = @{
             s = 100;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Apricot = @{
         name = "DarkOrange"
@@ -5223,6 +6887,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Salmon = @{
         name = "Salmon1"
@@ -5248,6 +6920,14 @@ $global:xterm = @{
             s = 100;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     CoralLight = @{
         name = "LightCoral"
@@ -5273,6 +6953,14 @@ $global:xterm = @{
             s = 100;
             l = 76
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     MulberryFaded = @{
         name = "PaleVioletRed1"
@@ -5298,6 +6986,14 @@ $global:xterm = @{
             s = 100;
             l = 76
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     PinkLight = @{
         name = "Orchid2"
@@ -5323,6 +7019,14 @@ $global:xterm = @{
             s = 100;
             l = 76
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     MagentaFaded = @{
         name = "Orchid1"
@@ -5348,6 +7052,14 @@ $global:xterm = @{
             s = 100;
             l = 76
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Marigold = @{
         name = "Orange1"
@@ -5373,6 +7085,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = "same as old `$color.Poppy which was taken from Badwolf color theme in Vim"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SandyBrown = @{
         name = "SandyBrown"
@@ -5398,6 +7118,14 @@ $global:xterm = @{
             s = 100;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     SalmonLight = @{
         name = "LightSalmon1"
@@ -5423,6 +7151,14 @@ $global:xterm = @{
             s = 100;
             l = 76
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Rose = @{
         name = "LightPink1"
@@ -5448,6 +7184,14 @@ $global:xterm = @{
             s = 100;
             l = 84
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     HotPinkFaded = @{
         name = "Pink1"
@@ -5473,6 +7217,14 @@ $global:xterm = @{
             s = 100;
             l = 84
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Carnation = @{
         name = "Plum1"
@@ -5498,6 +7250,14 @@ $global:xterm = @{
             s = 100;
             l = 84
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Gold = @{
         name = "Gold1"
@@ -5523,6 +7283,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Cream = @{
         name = "LightGoldenrod2"
@@ -5548,6 +7316,14 @@ $global:xterm = @{
             s = 100;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     MarigoldLight = @{
         name = "LightGoldenrod2"
@@ -5573,6 +7349,14 @@ $global:xterm = @{
             s = 100;
             l = 76
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     TanLight = @{
         name = "NavajoWhite1"
@@ -5598,6 +7382,14 @@ $global:xterm = @{
             s = 100;
             l = 84
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     RoseLight = @{
         name = "MistyRose1"
@@ -5623,6 +7415,14 @@ $global:xterm = @{
             s = 100;
             l = 92
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     CarnationLight = @{
         name = "Thistle1"
@@ -5648,6 +7448,14 @@ $global:xterm = @{
             s = 100;
             l = 92
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     YellowPure = @{
         name = "Yellow1"
@@ -5673,6 +7481,14 @@ $global:xterm = @{
             s = 100;
             l = 50
         }
+        notes = "same as colorID 11, Yellow"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Goldenrod = @{
         name = "LightGoldenrod1"
@@ -5698,6 +7514,14 @@ $global:xterm = @{
             s = 100;
             l = 68
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     KhakiFaded = @{
         name = "Khaki1"
@@ -5723,6 +7547,14 @@ $global:xterm = @{
             s = 100;
             l = 76
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Wheat = @{
         name = "Wheat1"
@@ -5748,6 +7580,14 @@ $global:xterm = @{
             s = 100;
             l = 84
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Cornsilk = @{
         name = "Cornsilk"
@@ -5773,6 +7613,14 @@ $global:xterm = @{
             s = 100;
             l = 92
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey100 = @{
         name = "Grey100"
@@ -5798,6 +7646,14 @@ $global:xterm = @{
             s = 0;
             l = 100
         }
+        notes = "same as colorID 15, White"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey3 = @{
         name = "Grey3"
@@ -5823,6 +7679,14 @@ $global:xterm = @{
             s = 0;
             l = 3
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey7 = @{
         name = "Grey7"
@@ -5848,6 +7712,14 @@ $global:xterm = @{
             s = 0;
             l = 7
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey11 = @{
         name = "Grey11"
@@ -5873,6 +7745,14 @@ $global:xterm = @{
             s = 0;
             l = 10
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey15 = @{
         name = "Grey15"
@@ -5898,6 +7778,14 @@ $global:xterm = @{
             s = 0;
             l = 14
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey19 = @{
         name = "Grey19"
@@ -5923,6 +7811,14 @@ $global:xterm = @{
             s = 0;
             l = 18
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey23 = @{
         name = "Grey23"
@@ -5948,6 +7844,14 @@ $global:xterm = @{
             s = 0;
             l = 22
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey27 = @{
         name = "Grey27"
@@ -5973,6 +7877,14 @@ $global:xterm = @{
             s = 0;
             l = 26
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey30 = @{
         name = "Grey30"
@@ -5998,6 +7910,14 @@ $global:xterm = @{
             s = 0;
             l = 30
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey35 = @{
         name = "Grey35"
@@ -6023,6 +7943,14 @@ $global:xterm = @{
             s = 0;
             l = 34
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey39 = @{
         name = "Grey39"
@@ -6048,6 +7976,14 @@ $global:xterm = @{
             s = 0;
             l = 37
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey42 = @{
         name = "Grey42"
@@ -6073,6 +8009,14 @@ $global:xterm = @{
             s = 0;
             l = 40
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey46 = @{
         name = "Grey46"
@@ -6098,6 +8042,14 @@ $global:xterm = @{
             s = 0;
             l = 46
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey50 = @{
         name = "Grey50"
@@ -6123,6 +8075,14 @@ $global:xterm = @{
             s = 0;
             l = 50
         }
+        notes = "same as colorID 8, Grey"
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey54 = @{
         name = "Grey54"
@@ -6148,6 +8108,14 @@ $global:xterm = @{
             s = 0;
             l = 54
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey58 = @{
         name = "Grey58"
@@ -6173,6 +8141,14 @@ $global:xterm = @{
             s = 0;
             l = 58
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey62 = @{
         name = "Grey62"
@@ -6198,6 +8174,14 @@ $global:xterm = @{
             s = 0;
             l = 61
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey66 = @{
         name = "Grey66"
@@ -6223,6 +8207,14 @@ $global:xterm = @{
             s = 0;
             l = 65
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey70 = @{
         name = "Grey70"
@@ -6248,6 +8240,14 @@ $global:xterm = @{
             s = 0;
             l = 69
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey74 = @{
         name = "Grey74"
@@ -6273,6 +8273,14 @@ $global:xterm = @{
             s = 0;
             l = 73
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey78 = @{
         name = "Grey78"
@@ -6298,6 +8306,14 @@ $global:xterm = @{
             s = 0;
             l = 77
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey82 = @{
         name = "Grey82"
@@ -6323,6 +8339,14 @@ $global:xterm = @{
             s = 0;
             l = 81
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey85 = @{
         name = "Grey85"
@@ -6348,6 +8372,14 @@ $global:xterm = @{
             s = 0;
             l = 85
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey89 = @{
         name = "Grey89"
@@ -6373,6 +8405,14 @@ $global:xterm = @{
             s = 0;
             l = 89
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }    
     Grey93 = @{
         name = "Grey93"
@@ -6398,5 +8438,706 @@ $global:xterm = @{
             s = 0;
             l = 93
         }
+        notes = ""
+        isXterm = $true
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
+    }
+    CandyRed = @{
+        name = "CandyRed"
+        ebit = "x - NOT AN xterm256 COLOR, USE tbit - "
+        tbit = "2;255;44;75m"
+        colorId = 1000
+        hueOrder = ""
+        hexString = "#ff2c4b"
+        rgbString = "rgb(255,44,75)"
+        hslString = "hsl(351,100,58.6)"
+        hex = @{
+            r = "ff";
+            g = "2c";
+            b = "4b"
+        }
+        rgb = @{
+            r = 255;
+            g = 44;
+            b = 75
+        }
+        hsl = @{
+            h = 351;
+            s = 100;
+            l = 58.6
+        }
+        notes = "Taken from Badwolf color theme in Vim"
+        isXterm = $false
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
+    }
+    TerraCotta = @{
+        name = "TerraCotta"
+        ebit = "x - NOT AN xterm256 COLOR, USE tbit - "
+        tbit = "2;250;128;114m"
+        colorId = 1001
+        hueOrder = ""
+        hexString = "#fa8072"
+        rgbString = "rgb(250,128,114)"
+        hslString = "hsl(6,93.2,71.4)"
+        hex = @{
+            r = "fa";
+            g = "80";
+            b = "72"
+        }
+        rgb = @{
+            r = 250;
+            g = 128;
+            b = 114
+        }
+        hsl = @{
+            h = 6;
+            s = 93.2;
+            l = 71.4
+        }
+        notes = "was `$color.Salmon"
+        isXterm = $false
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
+    }
+    CottonCandy = @{
+        name = "CottonCandy"
+        ebit = "x - NOT AN xterm256 COLOR, USE tbit - "
+        tbit = "2;255;182;193m"
+        colorId = 1002
+        hueOrder = ""
+        hexString = "#ffb6c1"
+        rgbString = "rgb(255,182,193)"
+        hslString = "hsl(351,100,85.7)"
+        hex = @{
+            r = "ff";
+            g = "b6";
+            b = "c1"
+        }
+        rgb = @{
+            r = 255;
+            g = 182;
+            b = 193
+        }
+        hsl = @{
+            h = 351;
+            s = 100;
+            l = 85.7
+        }
+        notes = "was `$color.Pink"
+        isXterm = $false
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
+    }
+    Roseine = @{
+        name = "Roseine"
+        ebit = "x - NOT AN xterm256 COLOR, USE tbit - "
+        tbit = "2;255;20;147m"
+        colorId = 1003
+        hueOrder = ""
+        hexString = "#ff1493"
+        rgbString = "rgb(255,20,147)"
+        hslString = "hsl(328,100,53.9)"
+        hex = @{
+            r = "ff";
+            g = "14";
+            b = "93"
+        }
+        rgb = @{
+            r = 255;
+            g = 20;
+            b = 147
+        }
+        hsl = @{
+            h = 328;
+            s = 100;
+            l = 53.9
+        }
+        notes = "was `$color.Magenta"
+        isXterm = $false
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
+    }
+    OrangeJulius = @{
+        name = "OrangeJulius"
+        ebit = "x - NOT AN xterm256 COLOR, USE tbit - "
+        tbit = "2;255;167;36m"
+        colorId = 1004
+        hueOrder = ""
+        hexString = "#ffa724"
+        rgbString = "rgb(255,167,36)"
+        hslString = "hsl(36,100,57.1)"
+        hex = @{
+            r = "ff";
+            g = "a7";
+            b = "24"
+        }
+        rgb = @{
+            r = 255;
+            g = 167;
+            b = 36
+        }
+        hsl = @{
+            h = 36;
+            s = 100;
+            l = 57.1
+        }
+        notes = "Taken from Badwolf color theme in Vim"
+        isXterm = $false
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
+    }
+    Butterscotch = @{
+        name = "Butterscotch"
+        ebit = "x - NOT AN xterm256 COLOR, USE tbit - "
+        tbit = "2;244;207;134m"
+        colorId = 1005
+        hueOrder = ""
+        hexString = "#f4cf86"
+        rgbString = "rgb(244,207,134)"
+        hslString = "hsl(40,83.3,74.1)"
+        hex = @{
+            r = "f4";
+            g = "cf";
+            b = "86"
+        }
+        rgb = @{
+            r = 244;
+            g = 207;
+            b = 134
+        }
+        hsl = @{
+            h = 40;
+            s = 83.3;
+            l = 74.1
+        }
+        notes = "Taken from Badwolf color theme in Vim"
+        isXterm = $false
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
+    }
+    Brown = @{
+        name = "Brown"
+        ebit = "x - NOT AN xterm256 COLOR, USE tbit - "
+        tbit = "2;120;66;18m"
+        colorId = 1006
+        hueOrder = ""
+        hexString = "#784212"
+        rgbString = "rgb(120,66,18)"
+        hslString = "hsl(28,73.9,27.1)"
+        hex = @{
+            r = "78";
+            g = "42";
+            b = "12"
+        }
+        rgb = @{
+            r = 120;
+            g = 66;
+            b = 18
+        }
+        hsl = @{
+            h = 28;
+            s = 73.9;
+            l = 27.1
+        }
+        notes = ""
+        isXterm = $false
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
+    }
+    Golden = @{
+        name = "Golden"
+        ebit = "x - NOT AN xterm256 COLOR, USE tbit - "
+        tbit = "2;241;196;15m"
+        colorId = 1007
+        hueOrder = ""
+        hexString = "#f1c40f"
+        rgbString = "rgb(241,196,15)"
+        hslString = "hsl(48,89,50.2)"
+        hex = @{
+            r = "f1";
+            g = "c4";
+            b = "0f"
+        }
+        rgb = @{
+            r = 241;
+            g = 196;
+            b = 15
+        }
+        hsl = @{
+            h = 48;
+            s = 89;
+            l = 50.2
+        }
+        notes = ""
+        isXterm = $false
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
+    }
+    Caramel = @{
+        name = "Caramel"
+        ebit = "x - NOT AN xterm256 COLOR, USE tbit - "
+        tbit = "2;186;74;0m"
+        colorId = 1008
+        hueOrder = ""
+        hexString = "#ba4a00"
+        rgbString = "rgb(186,74,0)"
+        hslString = "hsl(24,100,36.5)"
+        hex = @{
+            r = "ba";
+            g = "4a";
+            b = "00"
+        }
+        rgb = @{
+            r = 186;
+            g = 74;
+            b = 0
+        }
+        hsl = @{
+            h = 24;
+            s = 100;
+            l = 36.5
+        }
+        notes = ""
+        isXterm = $false
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
+    }
+    Almond = @{
+        name = "Almond"
+        ebit = "x - NOT AN xterm256 COLOR, USE tbit - "
+        tbit = "2;210;180;140m"
+        colorId = 1009
+        hueOrder = ""
+        hexString = "#d2b48c"
+        rgbString = "rgb(210,180,140)"
+        hslString = "hsl(34,43.7,68.6)"
+        hex = @{
+            r = "d2";
+            g = "b4";
+            b = "8c"
+        }
+        rgb = @{
+            r = 210;
+            g = 180;
+            b = 140
+        }
+        hsl = @{
+            h = 34;
+            s = 43.7;
+            l = 68.6
+        }
+        notes = "was `$color.Tan"
+        isXterm = $false
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
+    }
+    LimeGreen = @{
+        name = "LimeGreen"
+        ebit = "x - NOT AN xterm256 COLOR, USE tbit - "
+        tbit = "2;174;238;0m"
+        colorId = 1010
+        hueOrder = ""
+        hexString = "#aeee00"
+        rgbString = "rgb(174,238,0)"
+        hslString = "hsl(76,100,46.7)"
+        hex = @{
+            r = "ae";
+            g = "ee";
+            b = "00"
+        }
+        rgb = @{
+            r = 174;
+            g = 238;
+            b = 0
+        }
+        hsl = @{
+            h = 76;
+            s = 100;
+            l = 46.7
+        }
+        notes = "Taken from Badwolf color theme in Vim"
+        isXterm = $false
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
+    }
+    Algae = @{
+        name = "Algae"
+        ebit = "x - NOT AN xterm256 COLOR, USE tbit - "
+        tbit = "2;102;153;0m"
+        colorId = 1011
+        hueOrder = ""
+        hexString = "#669900"
+        rgbString = "rgb(102,153,0)"
+        hslString = "hsl(80,100,30)"
+        hex = @{
+            r = "66";
+            g = "99";
+            b = "00"
+        }
+        rgb = @{
+            r = 102;
+            g = 153;
+            b = 0
+        }
+        hsl = @{
+            h = 80;
+            s = 100;
+            l = 30
+        }
+        notes = ""
+        isXterm = $false
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
+    }
+    SeaFoamGreen = @{
+        name = "SeaFoamGreen"
+        ebit = "x - NOT AN xterm256 COLOR, USE tbit - "
+        tbit = "2;118;215;196m"
+        colorId = 1012
+        hueOrder = ""
+        hexString = "#76d7c4"
+        rgbString = "rgb(118,215,196)"
+        hslString = "hsl(168,55.1,65.1)"
+        hex = @{
+            r = "76";
+            g = "d7";
+            b = "c4"
+        }
+        rgb = @{
+            r = 118;
+            g = 215;
+            b = 196
+        }
+        hsl = @{
+            h = 168;
+            s = 55.1;
+            l = 65.1
+        }
+        notes = ""
+        isXterm = $false
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
+    }
+    RobinsEgg = @{
+        name = "RobinsEgg"
+        ebit = "x - NOT AN xterm256 COLOR, USE tbit - "
+        tbit = "2;64;224;208m"
+        colorId = 1013
+        hueOrder = ""
+        hexString = "#40e0d0"
+        rgbString = "rgb(64,224,208)"
+        hslString = "hsl(174,72.1,56.5)"
+        hex = @{
+            r = "40";
+            g = "e0";
+            b = "d0"
+        }
+        rgb = @{
+            r = 64;
+            g = 224;
+            b = 208
+        }
+        hsl = @{
+            h = 174;
+            s = 72.1;
+            l = 56.5
+        }
+        notes = "was `$color.Turquoise"
+        isXterm = $false
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
+    }
+    BabyBlue = @{
+        name = "BabyBlue"
+        ebit = "x - NOT AN xterm256 COLOR, USE tbit - "
+        tbit = "2;135;206;250m"
+        colorId = 1014
+        hueOrder = ""
+        hexString = "#87cefa"
+        rgbString = "rgb(135,206,250)"
+        hslString = "hsl(203,92,75.5)"
+        hex = @{
+            r = "87";
+            g = "ce";
+            b = "fa"
+        }
+        rgb = @{
+            r = 135;
+            g = 206;
+            b = 250
+        }
+        hsl = @{
+            h = 203;
+            s = 92;
+            l = 75.5
+        }
+        notes = "was `$color.SkyBlue"
+        isXterm = $false
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
+    }
+    Azure = @{
+        name = "Azure"
+        ebit = "x - NOT AN xterm256 COLOR, USE tbit - "
+        tbit = "2;10;157;255m"
+        colorId = 1015
+        hueOrder = ""
+        hexString = "#0a9dff"
+        rgbString = "rgb(10,157,255)"
+        hslString = "hsl(204,100,52)"
+        hex = @{
+            r = "0a";
+            g = "9d";
+            b = "ff"
+        }
+        rgb = @{
+            r = 10;
+            g = 157;
+            b = 255
+        }
+        hsl = @{
+            h = 204;
+            s = 100;
+            l = 52
+        }
+        notes = "Taken from Badwolf color theme in Vim"
+        isXterm = $false
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
+    }
+    PSBlue = @{
+        name = "PSBlue"
+        ebit = "x - NOT AN xterm256 COLOR, USE tbit - "
+        tbit = "2;0;26;56m"
+        colorId = 1016
+        hueOrder = ""
+        hexString = "#001a38"
+        rgbString = "rgb(0,26,56)"
+        hslString = "hsl(212,100,11)"
+        hex = @{
+            r = "00";
+            g = "1a";
+            b = "38"
+        }
+        rgb = @{
+            r = 0;
+            g = 26;
+            b = 56
+        }
+        hsl = @{
+            h = 212;
+            s = 100;
+            l = 11
+        }
+        notes = "Default PowerShell console window background color"
+        isXterm = $false
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
+    }
+    Bougainvillea = @{
+        name = "Bougainvillea"
+        ebit = "x - NOT AN xterm256 COLOR, USE tbit - "
+        tbit = "2;218;112;214m"
+        colorId = 1017
+        hueOrder = ""
+        hexString = "#da70d6"
+        rgbString = "rgb(218,112,214)"
+        hslString = "hsl(302,58.9,64.7)"
+        hex = @{
+            r = "da";
+            g = "70";
+            b = "d6"
+        }
+        rgb = @{
+            r = 218;
+            g = 112;
+            b = 214
+        }
+        hsl = @{
+            h = 302;
+            s = 58.9;
+            l = 64.7
+        }
+        notes = "was `$color.Orchid"
+        isXterm = $false
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
+    }
+    Charcoal = @{
+        name = "Charcoal"
+        ebit = "x - NOT AN xterm256 COLOR, USE tbit - "
+        tbit = "2;20;20;19m"
+        colorId = 1018
+        hueOrder = ""
+        hexString = "#141413"
+        rgbString = "rgb(20,20,19)"
+        hslString = "hsl(60,2.6,7.6)"
+        hex = @{
+            r = "14";
+            g = "14";
+            b = "13"
+        }
+        rgb = @{
+            r = 20;
+            g = 20;
+            b = 19
+        }
+        hsl = @{
+            h = 60;
+            s = 2.6;
+            l = 7.6
+        }
+        notes = "my preferred console window background color"
+        isXterm = $false
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
+    }
+    Gray = @{
+        name = "Gray"
+        ebit = "x - NOT AN xterm256 COLOR, USE tbit - "
+        tbit = "2;153;143;132m"
+        colorId = 1019
+        hueOrder = ""
+        hexString = "#998f84"
+        rgbString = "rgb(153,143,132)"
+        hslString = "hsl(31,9.3,55.9)"
+        hex = @{
+            r = "99";
+            g = "8f";
+            b = "84"
+        }
+        rgb = @{
+            r = 153;
+            g = 143;
+            b = 132
+        }
+        hsl = @{
+            h = 31;
+            s = 9.3;
+            l = 55.9
+        }
+        notes = "Taken from Badwolf color theme in Vim. Was `$color.Grey"
+        isXterm = $false
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
+    }
+    Canvas = @{
+        name = "Canvas"
+        ebit = "x - NOT AN xterm256 COLOR, USE tbit - "
+        tbit = "2;248;246;242m"
+        colorId = 1020
+        hueOrder = ""
+        hexString = "#f8f6f2"
+        rgbString = "rgb(248,246,242)"
+        hslString = "hsl(40,30,96.1)"
+        hex = @{
+            r = "f8";
+            g = "f6";
+            b = "f2"
+        }
+        rgb = @{
+            r = 248;
+            g = 246;
+            b = 242
+        }
+        hsl = @{
+            h = 40;
+            s = 30;
+            l = 96.1
+        }
+        notes = "Taken from Badwolf color theme in Vim"
+        isXterm = $false
+        primaryGroup = ""
+        secondaryGroup = ""
+        tertiaryGroup = ""
+        quaternaryGroup = ""
+        quinaryGroup = ""
+        senaryGroup = ""
     }
 }

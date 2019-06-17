@@ -7,20 +7,20 @@
 5 Current date
 6 Current time                  #>
 # Background colors
-$theme0a = $color.Charcoal
-$theme1a = $color.Turquoise
-$theme2a = $color.Salmon
-$theme3a = $color.Eggplant
-$theme4a = $color.Apricot
-$theme5a = $color.Purple
-$theme6a = $color.CandyRed
+$theme0a = $xterm.Charcoal.tbit
+$theme1a = $xterm.RobinsEgg.tbit
+$theme2a = $xterm.TerraCotta.tbit
+$theme3a = $xterm.Eggplant.tbit
+$theme4a = $xterm.TerraCotta.tbit
+$theme5a = $xterm.Purple.tbit
+$theme6a = $xterm.CandyRed.tbit
 
 
 # Text colors
-$theme0b = $color.Canvas
-$theme1b = $color.CandyRed
-$theme2b = $color.Purple
-$theme3b = $color.Salmon
-$theme4b = $color.PSBlue
-$theme5b = $color.Salmon
-$theme6b = $color.Turquoise
+$theme0b = $xterm.Canvas.tbit
+$theme1b = $xterm.CandyRed.tbit
+$theme2b = $xterm.Purple.tbit
+$theme3b = $xterm.Canvas.tbit
+$theme4b = $xterm.CandyRed.tbit
+$theme5b = $xterm.TerraCotta.tbit
+$theme6b = $xterm.RobinsEgg.tbit
