@@ -245,13 +245,32 @@ function Set-ColorTheme () {
         [string]$Theme
     )
 
-    . "C:\Users\InTerraPax\Documents\WindowsPowerShell\Scripts\$Theme.ps1"
+    . "C:\Users\InTerraPax\Documents\WindowsPowerShell\Scripts\color_themes\$Theme.ps1"
 
     # $PSColorTheme is imported when the theme script file is dot sourced.
     # it contains settings for all 6 text and all 6 background colors.
     $PSColorTheme | ForEach-Object {
         $Themelet = $_
         Set-ColorThemeValues @Themelet # Yay splatting!
+    }
+}
+
+function Get-ColorTheme () {
+
+    param(
+        [string]$Theme
+    )
+
+    $ThemePath = "C:\Users\InTerraPax\Documents\WindowsPowerShell\Scripts\color_themes"
+
+    if ($Theme) {
+        . "$ThemePath\$Theme.ps1"
+        Write-Host "$Theme`: "
+        $PSColorTheme
+    } else {
+        $AllFiles = Get-ChildItem -Path $ThemePath -Filter *.ps1 -Recurse -File -Name
+        $AllFiles | Foreach-Object {$FileOut += @($_.Trim(".ps1"))}
+        $FileOut
     }
 }
 
@@ -305,9 +324,13 @@ function Convert-RGBToHSLModified {
             $saturation = $C / (1 - [Math]::Abs(2.0 * $lightness - 1)) * 100
             $lightness *= 100
         }
-        return [pscustomobject]@{   hue = $( "{0:N2}" -f $hue)
-            saturation                  = $( "{0:N2}" -f $saturation)
-            lightness                   = $( "{0:N2}" -f $lightness)    
+        return [pscustomobject]@{
+            hue         = $( "{0:N2}" -f $hue)
+            saturation  = $( "{0:N2}" -f $saturation)
+            lightness   = $( "{0:N2}" -f $lightness)
+            red         = $( "{0:N2}" -f $red)
+            green       = $( "{0:N2}" -f $green)
+            blue        = $( "{0:N2}" -f $blue)
         }
     }
 }
@@ -398,50 +421,157 @@ function Get-NewHueOrderNumber () {
         $($([string]$xterm.$ColorName.s).PadRight(10," "))`
         $($([string]$xterm.$ColorName.l).PadRight(10," "))"
     }
-
-
-
 }
 
-function Set-ColorLevelFamilies () {        # WORK IN PROGRESS!!!!!!!
-    for ($i = 0; $i -le 35; $i++) {
-        if (($molokai[$i].r = $molokai[$i].g) -and ($molokai[$i].g -eq $molokai[$i].b)) {
-            $molokai[$i].primaryGroup = "Achromatic"
-            $molokai[$i].secondaryGroup = "Achromatic"
-            $molokai[$i].tertiaryGroup = "Achromatic"
-        }
-        else {
-            $temphue = ($([int]$molokai[$i].h) * 100)
-            switch ($temphue) {
-                {     0..5799  -contains $_ } { $molokai[$i].primaryGroup = "Reds" }
-                {  5800..16999 -contains $_ } { $molokai[$i].primaryGroup = "Greens" }
-                { 17000..29099 -contains $_ } { $molokai[$i].primaryGroup = "Blues" }
-                { 29100..36000 -contains $_ } { $molokai[$i].primaryGroup = "Reds" }
+function Get-HueOrder () {
+    param(
+        [double]$HueInQuestion
+    )
+    $SmallestDifferenceAbove = 361
+    $SmallestDifferenceBelow = 361
+    foreach ($clr in $xterm.Keys) {
+        if ($xterm.$clr.h -gt $HueInQuestion) {
+            if (($xterm.$clr.h - $SmallestDifferenceAbove) -lt $HueInQuestion) {
+                $SmallestDifferenceAbove = $xterm.$clr.h - $HueInQuestion
+                $ClosestColorNameAbove = $clr
             }
-            switch ($temphue) {
-                {     0..4599  -contains $_ } { $molokai[$i].secondaryGroup = "Reds" }
-                {  4600..6999  -contains $_ } { $molokai[$i].secondaryGroup = "Yellows" }
-                {  7000..16999 -contains $_ } { $molokai[$i].secondaryGroup = "Greens" }
-                { 17000..19999 -contains $_ } { $molokai[$i].secondaryGroup = "Cyans" }
-                { 20000..27499 -contains $_ } { $molokai[$i].secondaryGroup = "Blues" }
-                { 27500..33299 -contains $_ } { $molokai[$i].secondaryGroup = "Magentas" }
-                { 33300..36000 -contains $_ } { $molokai[$i].secondaryGroup = "Reds" }
-            }
-            switch ($temphue) {
-                {     0..1599  -contains $_ } { $molokai[$i].tertiaryGroup = "Reds" }
-                {  1600..4599  -contains $_ } { $molokai[$i].tertiaryGroup = "Oranges" }
-                {  4600..6599  -contains $_ } { $molokai[$i].tertiaryGroup = "Yellows" }
-                {  6600..11999 -contains $_ } { $molokai[$i].tertiaryGroup = "Limes" }
-                { 12000..14699 -contains $_ } { $molokai[$i].tertiaryGroup = "Greens" }
-                { 14700..17099 -contains $_ } { $molokai[$i].tertiaryGroup = "Teals" }
-                { 17100..18299 -contains $_ } { $molokai[$i].tertiaryGroup = "Cyans" }
-                { 18300..21099 -contains $_ } { $molokai[$i].tertiaryGroup = "Azures" }
-                { 21100..25299 -contains $_ } { $molokai[$i].tertiaryGroup = "Blues" }
-                { 25300..28999 -contains $_ } { $molokai[$i].tertiaryGroup = "Purples" }
-                { 29000..31499 -contains $_ } { $molokai[$i].tertiaryGroup = "Magentas" }
-                { 31500..35099 -contains $_ } { $molokai[$i].tertiaryGroup = "Pinks" }
-                { 35100..36000 -contains $_ } { $molokai[$i].tertiaryGroup = "Reds" }
+        } elseif ($xterm.$clr.h -lt $HueInQuestion) {
+            if (($xterm.$clr.h + $SmallestDifferenceBelow) -gt $HueInQuestion) {
+                $SmallestDifferenceBelow = $HueInQuestion - $xterm.$clr.h
+                $ClosestColorNameBelow = $clr
             }
         }
     }
+    $SmallestDifferenceAbove
+    $ClosestColorNameAbove
+    $SmallestDifferenceBelow
+    $ClosestColorNameBelow
+}
+
+function Get-ColorLevelFamily () {        # WORK IN PROGRESS!!!!!!!
+    param(
+        [Parameter(ParameterSetName = "Lumped")]
+        [string]$HexString,
+
+        [Parameter(ParameterSetName = "Split")]
+        [int32]$red,
+
+        [Parameter(ParameterSetName = "Split")]
+        [int32]$green,
+
+        [Parameter(ParameterSetName = "Split")]
+        [int32]$blue,
+
+        [switch]$SendToClip
+    )
+
+    switch ($PSCmdlet.ParameterSetName) {
+        "Lumped" {
+            $r = "0x$($HexString.Substring(1,2))"
+            $g = "0x$($HexString.Substring(3,2))"
+            $b = "0x$($HexString.Substring(5,2))"
+        
+            $red = [int32]$r
+            $green = [int32]$g
+            $blue = [int32]$b
+        }
+        "Split" { }
+    }
+
+    $cmax = [math]::Max($red,$([math]::Max($green,$blue)))
+    $cmin = [math]::Min($red,$([math]::Min($green,$blue)))
+
+    if ($cmax - $cmin -le 9) {
+        $pGroup = "Achromatic"
+        $sGroup = "Achromatic"
+        $tGroup = "Achromatic"
+    }
+    else {
+        $temphue = $([double]$(Convert-RGBToHSLModified -Red $red -Green $green -Blue $blue).hue * 100)
+        switch ($temphue) {
+            {     0..5799  -contains $_ } { $pGroup = "Reds"     }
+            {  5800..16999 -contains $_ } { $pGroup = "Greens"   }
+            { 17000..29099 -contains $_ } { $pGroup = "Blues"    }
+            { 29100..36000 -contains $_ } { $pGroup = "Reds"     }
+        }
+        switch ($temphue) {
+            {     0..4599  -contains $_ } { $sGroup = "Reds"     }
+            {  4600..6999  -contains $_ } { $sGroup = "Yellows"  }
+            {  7000..16999 -contains $_ } { $sGroup = "Greens"   }
+            { 17000..19999 -contains $_ } { $sGroup = "Cyans"    }
+            { 20000..27499 -contains $_ } { $sGroup = "Blues"    }
+            { 27500..33299 -contains $_ } { $sGroup = "Magentas" }
+            { 33300..36000 -contains $_ } { $sGroup = "Reds"     }
+        }
+        switch ($temphue) {
+            {     0..1599  -contains $_ } { $tGroup = "Reds"     }
+            {  1600..4599  -contains $_ } { $tGroup = "Oranges"  }
+            {  4600..6599  -contains $_ } { $tGroup = "Yellows"  }
+            {  6600..11999 -contains $_ } { $tGroup = "Limes"    }
+            { 12000..14699 -contains $_ } { $tGroup = "Greens"   }
+            { 14700..17099 -contains $_ } { $tGroup = "Teals"    }
+            { 17100..18299 -contains $_ } { $tGroup = "Cyans"    }
+            { 18300..21099 -contains $_ } { $tGroup = "Azures"   }
+            { 21100..25299 -contains $_ } { $tGroup = "Blues"    }
+            { 25300..28999 -contains $_ } { $tGroup = "Purples"  }
+            { 29000..31499 -contains $_ } { $tGroup = "Magentas" }
+            { 31500..35099 -contains $_ } { $tGroup = "Pinks"    }
+            { 35100..36000 -contains $_ } { $tGroup = "Reds"     }
+        }
+    }
+    $output = `
+@"
+primaryGroup   = "$pGroup"
+secondaryGroup = "$sGroup"
+tertiaryGroup  = "$tGroup"
+"@
+
+    if ($SendToClip) { Set-Clipboard $output }
+
+    return [PSCustomObject]@{
+        primaryGroup   = $pGroup
+        secondaryGroup = $sGroup
+        tertiaryGroup  = $tGroup
+    }
+}
+
+function Get-ColorInverse () {
+    param(
+        [Parameter(ParameterSetName = "hexString")]
+        [string]$hexString,
+
+        [Parameter(ParameterSetName = "tbit")]
+        [string]$tbit
+    )
+
+    switch ($PSCmdlet.ParameterSetName) {
+        "tbit" {
+            $tbit2 = $tbit.Trim("m")#$tbit.Substring(0,$($tbit.Length) - 1)
+            $tbit3 = @($tbit2.Split(";"))
+
+            $r = $tbit3[1]
+            $g = $tbit3[2]
+            $b = $tbit3[3]
+        }
+        "hexString" {
+            $r = "{0:N}" -f "0x$($hexString.Substring(1,2))"
+            $g = "{0:N}" -f "0x$($hexString.Substring(3,2))"
+            $b = "{0:N}" -f "0x$($hexString.Substring(5,2))"
+        }
+    }
+
+    $InverseR = 255 - $r
+    $InverseG = 255 - $g
+    $InverseB = 255 - $b
+
+    switch ($PSCmdlet.ParameterSetName) {
+        "tbit" {
+            return "2;$($InverseR);$($InverseG);$($InverseB)m"
+        }
+        "hexString" {
+            return "#$("{0:x2}" -f $InverseR)$("{0:x2}" -f $InverseG)$("{0:x2}" -f $InverseB)"
+        }
+    }
+
+
 }
