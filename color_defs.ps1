@@ -4,16 +4,26 @@
 #--- Formatting stuff ---
 
 # 2 * 10^1 + 7 * 10^0 = 1 * 16^1 + 11*16^0 :: dec 27 = hex 1b
-$global:BG = "$([char]27)[48;"     # introduces background color changes
-$global:FG = "$([char]27)[38;"     # introduces foreground color changes
+$global:BG   = "$([char]27)[48;"     # introduces background color changes
+$global:FG   = "$([char]27)[38;"     # introduces foreground color changes
+$global:CL   = "$([char]0x1b)[00m"   # ends a color sequence
 $global:Clir = "$([char]0x1b)[00m"   # ends a color sequence
+
+$global:leftArrow = [char]0xe0b0
+$global:riteArrow = [char]0xe0b2
+$global:leftAngle = [char]0xe0b1
+$global:riteAngle = [char]0xe0b3
+
+$global:dozenalTen = [char]0x218a
+$global:dozenalElf = [char]0x218b
+
 
 #--- Create Color Objects ---
 
-$primaries = @("Reds", "Greens", "Blues", "Achromatic")
+$primaries   = @("Reds", "Greens", "Blues", "Achromatic")
 $secondaries = @("Reds", "Yellows", "Greens", "Cyans", "Blues", "Magentas", "Achromatic")
-$tertiaries = @("Reds", "Oranges", "Yellows", "Limes", "Greens", "Teals", "Cyans",
-    "Azures", "Blues", "Purples", "Magentas", "Pinks", "Achromatic")
+$tertiaries  = @("Reds", "Oranges", "Yellows", "Limes", "Greens", "Teals", "Cyans",
+                 "Azures", "Blues", "Purples", "Magentas", "Pinks", "Achromatic")
 
 #--- Custom Combos ---
 
@@ -26,7 +36,7 @@ $global:tag = @{
 #--- Console Host Window and PSReadline settings ---
 
 #$host.PrivateData.ErrorForegroundColor     = 'White'
-$host.PrivateData.ErrorBackgroundColor = 'DarkMagenta'
+$host.PrivateData.ErrorBackgroundColor      = 'DarkMagenta'
 #$host.PrivateData.VerboseForegroundColor   = 'Magenta'
 
 Set-PSReadLineOption -Colors @{
@@ -164,8 +174,8 @@ function Get-ColorCardsAndSwatches () {
             if ($Swatches) {
                 # The setup here is that the output is a square with the color name next to it.
                 # so you have lines that are "<COLOR><DATA>" and others that are "<COLOR><BLANKSPACE>"
-                $line1 += "$BG$colorBit$(" " * ($Size * 2))$Clir " + "$_".PadRight( $Padding, " " )
-                $line2 += "$BG$colorBit$(" " * ($Size * 2))$Clir " + "  ".PadRight( $Padding, " " )
+                $line1 += "$BG$colorBit$(" " * ($Size * 2))$CL " + "$_".PadRight( $Padding, " " )
+                $line2 += "$BG$colorBit$(" " * ($Size * 2))$CL " + "  ".PadRight( $Padding, " " )
 
                 # This loop is set up so that the color name outside the square swatch will always be
                 # either next to the middle row (if $Size is odd) or the upper of the two middle rows
@@ -183,11 +193,11 @@ function Get-ColorCardsAndSwatches () {
                 # $line2 is the color's hex string then the color to the end.
                 # $line3 is the color's hue value formatted to 2 decimal places, then the color...
                 # $line4 is just the color itself and will be used to fill out the majority of the card's area.
-                $line1 += "$_$BG$colorBit$(" " * (20 - "$_".Length) )$Clir"
-                $line2 += "$($xterm.$_.hexString)$BG$colorBit$(" " * 13)$Clir"
+                $line1 += "$_$BG$colorBit$(" " * (20 - "$_".Length) )$CL"
+                $line2 += "$($xterm.$_.hexString)$BG$colorBit$(" " * 13)$CL"
                 $hue = "{0:f2}" -f $xterm.$_.h
-                $line3 += "$hue$BG$colorBit$(" " * $(20 - $hue.Length))$Clir"
-                $line4 += "$BG$colorBit$(" " * 20)$Clir"
+                $line3 += "$hue$BG$colorBit$(" " * $(20 - $hue.Length))$CL"
+                $line4 += "$BG$colorBit$(" " * 20)$CL"
 
                 # This loop is much simpler than the one above since all lines are always in the same place.
                 if ( ( ( $Counter % 6 ) -eq 0 ) -or ( $Counter -eq $ColorNameArray.Count ) ) {
@@ -231,11 +241,11 @@ function Set-ColorThemeValues () {
         "Text" { $ThemeNum = $Text; $Theme = "b"; $Number = $Text + 20 }
     }
 
-    $file = Get-Content -Path C:\Users\InTerraPax\Documents\WindowsPowerShell\Scripts\color_themes.ps1
+    $file = Get-Content -Path $ENV:USERPROFILE\Documents\WindowsPowerShell\Scripts\color_themes.ps1
 
     $file[$Number] = "`$theme$ThemeNum$Theme = `$xterm.$NewColor.tbit"
 
-    $file | Set-Content -Path C:\Users\InTerraPax\Documents\WindowsPowerShell\Scripts\color_themes.ps1
+    $file | Set-Content -Path $ENV:USERPROFILE\Documents\WindowsPowerShell\Scripts\color_themes.ps1
 
 }
 
@@ -245,7 +255,7 @@ function Set-ColorTheme () {
         [string]$Theme
     )
 
-    . "C:\Users\InTerraPax\Documents\WindowsPowerShell\Scripts\color_themes\$Theme.ps1"
+    . "$ENV:USERPROFILE\Documents\WindowsPowerShell\Scripts\color_themes\$Theme.ps1"
 
     # $PSColorTheme is imported when the theme script file is dot sourced.
     # it contains settings for all 6 text and all 6 background colors.
@@ -261,7 +271,7 @@ function Get-ColorTheme () {
         [string]$Theme
     )
 
-    $ThemePath = "C:\Users\InTerraPax\Documents\WindowsPowerShell\Scripts\color_themes"
+    $ThemePath = "$ENV:USERPROFILE\Documents\WindowsPowerShell\Scripts\color_themes"
 
     if ($Theme) {
         . "$ThemePath\$Theme.ps1"
@@ -275,6 +285,10 @@ function Get-ColorTheme () {
 }
 
 #--- Function for converting RGB values to HSL ---
+<#
+https://badflyer.com/powershell-color-conversion
+Convert-RGBToHSLModified is a modified version of Convert-RGBToHSL by badflyer
+#>
 function Convert-RGBToHSLModified {
     [CmdLetBinding()]
     param
@@ -356,9 +370,9 @@ function Get-ClosestXTermColor () {
             $g = "0x$($HexString.Substring(3,2))"
             $b = "0x$($HexString.Substring(5,2))"
         
-            $red = [int32]$r
+            $red   = [int32]$r
             $green = [int32]$g
-            $blue = [int32]$b
+            $blue  = [int32]$b
         }
         "Split" { }
     }
@@ -377,18 +391,19 @@ function Get-ClosestXTermColor () {
         $RGB += @($ReusableVariable)
     }
 
-    $red = $RGB[0]
+    $red   = $RGB[0]
     $green = $RGB[1]
-    $blue = $RGB[2]
+    $blue  = $RGB[2]
 
     Write-Host "After fixing:"
     Write-Host "Red is: $red, Green is: $green, Blue is $blue"
+    Write-Host "Closest xterm color is..."
 
     $xterm.Keys | ForEach-Object {
         if (( $xterm.$_.r -eq $red  ) -and 
             ( $xterm.$_.g -eq $green) -and 
             ( $xterm.$_.b -eq $blue )) {
-            Write-Host "$_`:".PadRight(24, " ")$xterm.$_.hexString
+            Write-Host "$_`:" $xterm.$_.hexString
         }
     }
 }
@@ -415,11 +430,11 @@ function Get-NewHueOrderNumber () {
     $ColorNameArray += $AboveHSLArray | Sort-Object { $xterm.$_.hueOrder }
 
     foreach ($ColorName in $ColorNameArray) {
-        Write-Host "$($ColorName.PadRight(20," "))`
-        $($([string]$xterm.$ColorName.hueOrder).PadRight(10, " "))`
-        $($([string]$xterm.$ColorName.h).PadRight(10," "))`
-        $($([string]$xterm.$ColorName.s).PadRight(10," "))`
-        $($([string]$xterm.$ColorName.l).PadRight(10," "))"
+        Write-Host "$($ColorName.PadRight(20," "))" -NoNewline
+        Write-Host "ord: $($([string]$xterm.$ColorName.hueOrder).PadRight(10, " "))" -NoNewline
+        Write-Host "hue: $($([string]$xterm.$ColorName.h).PadRight(10," "))" -NoNewline
+        Write-Host "sat: $($([string]$xterm.$ColorName.s).PadRight(10," "))" -NoNewline
+        Write-Host "lgt: $($([string]$xterm.$ColorName.l).PadRight(10," "))"
     }
 }
 
@@ -546,7 +561,7 @@ function Get-ColorInverse () {
 
     switch ($PSCmdlet.ParameterSetName) {
         "tbit" {
-            $tbit2 = $tbit.Trim("m")#$tbit.Substring(0,$($tbit.Length) - 1)
+            $tbit2 = $tbit.Trim("m")
             $tbit3 = @($tbit2.Split(";"))
 
             $r = $tbit3[1]
