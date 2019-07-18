@@ -589,4 +589,4 @@ function Get-ColorInverse () {
     }
 
 
-}
+} # added to test git commit
