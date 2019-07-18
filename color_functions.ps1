@@ -1,62 +1,3 @@
-#--- Color Definitions File ---
-
-
-#--- Formatting stuff ---
-
-# 2 * 10^1 + 7 * 10^0 = 1 * 16^1 + 11*16^0 :: dec 27 = hex 1b
-$global:BG   = "$([char]27)[48;"     # introduces background color changes
-$global:FG   = "$([char]27)[38;"     # introduces foreground color changes
-$global:CL   = "$([char]0x1b)[00m"   # ends a color sequence
-$global:Clir = "$([char]0x1b)[00m"   # ends a color sequence
-
-$global:leftArrow = [char]0xe0b0
-$global:riteArrow = [char]0xe0b2
-$global:leftAngle = [char]0xe0b1
-$global:riteAngle = [char]0xe0b3
-
-$global:dozenalTen = [char]0x218a
-$global:dozenalElf = [char]0x218b
-
-
-#--- Create Color Objects ---
-
-$primaries   = @("Reds", "Greens", "Blues", "Achromatic")
-$secondaries = @("Reds", "Yellows", "Greens", "Cyans", "Blues", "Magentas", "Achromatic")
-$tertiaries  = @("Reds", "Oranges", "Yellows", "Limes", "Greens", "Teals", "Cyans",
-                 "Azures", "Blues", "Purples", "Magentas", "Pinks", "Achromatic")
-
-#--- Custom Combos ---
-
-$global:tag = @{
-    Result  = "$FG$( $xterm.PSBlue.tbit   )$BG$( $xterm.White.tbit    )"
-    HiLite  = "$FG$( $xterm.Charcoal.tbit )$BG$( $xterm.GoldDeep.tbit )"
-    Verbose = "$FG$( $xterm.Yellow.tbit   )$BG$( $xterm.Charcoal.tbit )"
-}
-
-#--- Console Host Window and PSReadline settings ---
-
-#$host.PrivateData.ErrorForegroundColor     = 'White'
-$host.PrivateData.ErrorBackgroundColor      = 'DarkMagenta'
-#$host.PrivateData.VerboseForegroundColor   = 'Magenta'
-
-Set-PSReadLineOption -Colors @{
-    Command            = "$FG$($xterm.Red.tbit)"
-    Comment            = "$FG$($xterm.Gray.tbit)"
-    ContinuationPrompt = "$FG$($xterm.Lavendar.tbit)"
-    DefaultToken       = "$FG$($xterm.Roseine.tbit)"
-    Emphasis           = "$($tag.HiLite)"
-    Error              = "$FG$($xterm.Golden.tbit)"
-    Keyword            = "$FG$($xterm.OrangeJulius.tbit)"
-    Member             = "$FG$($xterm.ButterScotch.tbit)"
-    Number             = "$FG$($xterm.Violet.tbit)"
-    Operator           = "$FG$($xterm.CandyRed.tbit)"
-    Parameter          = "$FG$($xterm.Azure.tbit)"
-    Selection          = "$BG$($xterm.PSBlue.tbit)"
-    String             = "$FG$($xterm.Marigold.tbit)"
-    Type               = "$FG$($xterm.RobinsEgg.tbit)"
-    Variable           = "$FG$($xterm.LimeGreen.tbit)"
-} -ContinuationPrompt "-"
-
 #--- Function for displaying colors ---
 
 function Get-ColorCardsAndSwatches () {
@@ -241,11 +182,11 @@ function Set-ColorThemeValues () {
         "Text" { $ThemeNum = $Text; $Theme = "b"; $Number = $Text + 20 }
     }
 
-    $file = Get-Content -Path $ENV:USERPROFILE\Documents\WindowsPowerShell\Scripts\color_themes.ps1
+    $file = Get-Content -Path $ENV:USERPROFILE\Documents\PowerShell\Scripts\color_themes.ps1
 
     $file[$Number] = "`$theme$ThemeNum$Theme = `$xterm.$NewColor.tbit"
 
-    $file | Set-Content -Path $ENV:USERPROFILE\Documents\WindowsPowerShell\Scripts\color_themes.ps1
+    $file | Set-Content -Path $ENV:USERPROFILE\Documents\PowerShell\Scripts\color_themes.ps1
 
 }
 
@@ -255,7 +196,7 @@ function Set-ColorTheme () {
         [string]$Theme
     )
 
-    . "$ENV:USERPROFILE\Documents\WindowsPowerShell\Scripts\color_themes\$Theme.ps1"
+    . "$ENV:USERPROFILE\Documents\PowerShell\Scripts\color_themes\$Theme.ps1"
 
     # $PSColorTheme is imported when the theme script file is dot sourced.
     # it contains settings for all 6 text and all 6 background colors.
@@ -271,7 +212,7 @@ function Get-ColorTheme () {
         [string]$Theme
     )
 
-    $ThemePath = "$ENV:USERPROFILE\Documents\WindowsPowerShell\Scripts\color_themes"
+    $ThemePath = "$ENV:USERPROFILE\Documents\PowerShell\Scripts\color_themes"
 
     if ($Theme) {
         . "$ThemePath\$Theme.ps1"
@@ -589,4 +530,4 @@ function Get-ColorInverse () {
     }
 
 
-} # added to test git commit
+}
