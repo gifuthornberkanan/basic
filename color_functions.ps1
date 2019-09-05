@@ -182,11 +182,11 @@ function Set-ColorThemeValues () {
         "Text" { $ThemeNum = $Text; $Theme = "b"; $Number = $Text + 20 }
     }
 
-    $file = Get-Content -Path $ENV:USERPROFILE\Documents\PowerShell\Scripts\color_themes.ps1
+    $file = Get-Content -Path $PSScriptHome\color_themes.ps1
 
     $file[$Number] = "`$theme$ThemeNum$Theme = `$xterm.$NewColor.tbit"
 
-    $file | Set-Content -Path $ENV:USERPROFILE\Documents\PowerShell\Scripts\color_themes.ps1
+    $file | Set-Content -Path $PSScriptHome\color_themes.ps1
 
 }
 
@@ -196,7 +196,7 @@ function Set-ColorTheme () {
         [string]$Theme
     )
 
-    . "$ENV:USERPROFILE\Documents\PowerShell\Scripts\color_themes\$Theme.ps1"
+    . "$PSScriptHome\color_themes\$Theme.ps1"
 
     # $PSColorTheme is imported when the theme script file is dot sourced.
     # it contains settings for all 6 text and all 6 background colors.
@@ -212,7 +212,7 @@ function Get-ColorTheme () {
         [string]$Theme
     )
 
-    $ThemePath = "$ENV:USERPROFILE\Documents\PowerShell\Scripts\color_themes"
+    $ThemePath = "$PSScriptHome\color_themes"
 
     if ($Theme) {
         . "$ThemePath\$Theme.ps1"
