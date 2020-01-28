@@ -497,10 +497,27 @@ function Get-ColorInverse () {
         [string]$hexString,
 
         [Parameter(ParameterSetName = "tbit")]
-        [string]$tbit
+        [string]$tbit,
+
+        [Parameter(ParameterSetName = "regrebl")]
+        [Alias("r")]
+        [int]$red,
+
+        [Parameter(ParameterSetName = "regrebl")]
+        [Alias("g")]
+        [int]$green,
+
+        [Parameter(ParameterSetName = "regrebl")]
+        [Alias("b")]
+        [int]$blue
     )
 
     switch ($PSCmdlet.ParameterSetName) {
+        "hexString" {
+            $r = "{0:N}" -f "0x$($hexString.Substring(1,2))"
+            $g = "{0:N}" -f "0x$($hexString.Substring(3,2))"
+            $b = "{0:N}" -f "0x$($hexString.Substring(5,2))"
+        }
         "tbit" {
             $tbit2 = $tbit.Trim("m")
             $tbit3 = @($tbit2.Split(";"))
@@ -509,10 +526,10 @@ function Get-ColorInverse () {
             $g = $tbit3[2]
             $b = $tbit3[3]
         }
-        "hexString" {
-            $r = "{0:N}" -f "0x$($hexString.Substring(1,2))"
-            $g = "{0:N}" -f "0x$($hexString.Substring(3,2))"
-            $b = "{0:N}" -f "0x$($hexString.Substring(5,2))"
+        "regrebl" {
+            $r = $red
+            $g = $green
+            $b = $blue
         }
     }
 
@@ -521,11 +538,18 @@ function Get-ColorInverse () {
     $InverseB = 255 - $b
 
     switch ($PSCmdlet.ParameterSetName) {
+        "hexString" {
+            return "#$("{0:x2}" -f $InverseR)$("{0:x2}" -f $InverseG)$("{0:x2}" -f $InverseB)"
+        }
         "tbit" {
             return "2;$($InverseR);$($InverseG);$($InverseB)m"
         }
-        "hexString" {
-            return "#$("{0:x2}" -f $InverseR)$("{0:x2}" -f $InverseG)$("{0:x2}" -f $InverseB)"
+        "regrebl" {
+            return [PSCustomObject]@{
+                Red = $InverseR
+                Green = $InverseG
+                Blue = $InverseB
+            }
         }
     }
 
