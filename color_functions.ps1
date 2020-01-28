@@ -531,3 +531,28 @@ function Get-ColorInverse () {
 
 
 }
+
+function Show-ThemeBanner() {
+
+    . "$PSScriptHome\color_themes.ps1"
+
+    $numOfColumns = $Host.UI.RawUI.WindowSize.Width
+    $modCols = $numOfColumns % 2
+
+    if ( $modCols -eq 0 ) {
+        $numOfColumns = $numOfColumns / 2
+    } else {
+        $numOfColumns = $numOfColumns - 1
+        $numOfColumns = $numOfColumns / 2
+    }
+
+    For ( $i; $i -lt $numOfColumns; $i++ ) {
+        $Rand = Get-Random -Maximum 7 -Minimum 1
+        $OutputBanner = "$OutputBanner$BG$(Get-Variable -Name "theme$($Rand)a" -ValueOnly)  $CL"
+    }
+
+    $OutputBanner.TrimEnd($numOfColumns - 1)
+    For ( $j = 1; $j -lt 4; $j++ ) {
+        Write-Host -Object $OutputBanner -NoNewline
+    }
+}
