@@ -31,6 +31,9 @@ function Start-RouletteSpin() {
         ###  won't output a list of all the numbers that hit.
         [Parameter()]
         [int]$WinningNumsToShow = 24
+
+        [Parameter()]
+        [switch]$SuppressOutputText
     )
 
     if ( $Wagers.Count -ne $Bets.Count ) {
